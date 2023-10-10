@@ -19,3 +19,11 @@ console.log(itemList.firstChild);
 console.log(itemList.firstElementChild);
 itemList.firstElementChild.textContent = 'Hello 1';
 
+// lastChild
+console.log(itemList.lastChild);
+// Issue -> It also considers newLine etc as child element
+// Therefore it is not preferable
+
+// lastElementChild
+console.log(itemList.lastElementChild);
+itemList.lastElementChild.textContent = 'Hello 3';
