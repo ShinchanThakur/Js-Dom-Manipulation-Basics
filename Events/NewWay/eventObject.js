@@ -15,4 +15,8 @@ function buttonClick(e) {
     console.log(e.clientY);
     console.log(e.offsetX);     // Position of click wrt the clicked element
     console.log(e.offsetY);
+
+    console.log(e.altKey);
+    console.log(e.ctrlKey);
+    console.log(e.shiftKey);
 }
