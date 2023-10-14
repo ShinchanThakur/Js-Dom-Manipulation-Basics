@@ -6,4 +6,6 @@ form.addEventListener('submit', addItem);
 function addItem(e) {
     e.preventDefault();
 
+    var li = document.createElement('li');
+    li.className = 'list-group-item';
 }
