@@ -12,4 +12,6 @@ function addItem(e) {
     var newItem = document.getElementById('item').value;
     var textNode = document.createTextNode(newItem);
     li.appendChild(textNode);
+
+    itemList.appendChild(li);
 }
