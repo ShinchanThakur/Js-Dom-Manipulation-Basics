@@ -9,7 +9,7 @@ function addItem(e) {
     var li = document.createElement('li');
     li.className = 'list-group-item';
 
-    var newItem = document.getElementById('item');
+    var newItem = document.getElementById('item').value;
     var textNode = document.createTextNode(newItem);
     li.appendChild(textNode);
 }
